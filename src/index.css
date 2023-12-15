@@ -2,6 +2,6 @@
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
 
-.hide-scroll::-webkit-scrollbar{
+.hide-scroll::-webkit-scrollbar, body::-webkit-scrollbar{
     display: none;
 }
